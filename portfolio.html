@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-            <link rel="stylesheet" type="text/css" href="reset.css">
-            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <title>
+<head>
+    <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-        </title>
-    </head>
-    <body>
-            <header>
+</head>
 
+<body>
+
+        <header>
+                <div class="headerWrapper">
                     <div id="myName"> 
                         <p>Chris Heckendorn</p>
                     </div>
             
-                    <ul id="navBar">
-                        <li><a href="index.html">About</a></li>
-                        <li>|</li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li>|</li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-            
-            </header>
-
-            <div id="bigBox">
-
-                    <h1>Portfolio</h1>
-            
-                    <div id="littleBox">
-<!-- This section is for the 6 boxes that show each of my projects. -->
-                            <div class="project">
-                                <a target="_blank" href="assets/images/placeholder1.jpg">
-                                <img id="firstPhoto" src="assets/images/placeholder1.jpg" alt="PlaceholderImage1" width="300" height="200">
-                                </a>
-                            </div>
-
-                            <div class="project">
-                                    <a target="_blank" href="assets/images/placeholder2.jpg">
-                                    <img id="secondPhoto" src="assets/images/placeholder2.jpg" alt="PlaceholderImage2" width="300" height="200">
-                                    </a>
-  
-                            </div>
-
+                    <div id="navBar">
+                        <ul>
+                            <li><a href="index.html">About</a></li>
+                            <li>|</li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li>|</li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
                     </div>
+                </div>
+                </header>
+
+        <!-- This header holds both the navbar and the name box -->
+    
+
+    <!-- This is the entire white box that holds all of the About Me content -->
+    <div class="contentWrapper">
+
+        <h1>Portfolio</h1>
+
+        <!-- This white box holds both the image and the content text -->
+        <div class="content2">
+<!-- This section is for the 6 boxes that show each of my projects. -->
+                <div class="project"></div>
+                    <a target="_blank" href="assets/images/placeholder1.jpg">
+                    <img id="firstPhoto" src="assets/images/placeholder1.jpg" alt="PlaceholderImage1" width="250" height="200">
+                    </a>
+                    <div class="description">
+                        Hangman
+                    </div>
+                </div>
+
+                <div class="project">
+                        <a target="_blank" href="assets/images/placeholder2.jpg">
+                        <img id="secondPhoto" src="assets/images/placeholder2.jpg" alt="PlaceholderImage2" width="250" height="200">
+                        </a>
+
+                </div>
             </div>
+
+        </div>
             
-                <footer>
-                        <p id="footerText">Copyright @</p>
-                    </footer>
+        <footer>
+            <p id="footerText">Copyright @</p>
+         </footer>
     </body>
 </html>
